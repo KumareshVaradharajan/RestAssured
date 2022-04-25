@@ -11,9 +11,6 @@ public class Oauth2_ClientCredentials {
 	@Test
 	public void oauth_CoopApi_ClientCredentials()
 	{
-		
-		
-		
 		String res = given()
 			.formParam("client_id", "kumareshApp")
 			.formParam("client_secret", "7c7bb85a01bcb3188f597a6bdba587ee")
